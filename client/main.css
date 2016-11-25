@@ -1,1 +1,26 @@
 /* CSS declarations go here */
+/*
+.container
+  tweets-container
+    tweet-order: submit
+      box
+      delete -> button
+      count --> checkbox
+      onUpdateTweet --> Input
+ */
+
+.tweets-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+}
+
+.tweet-order{
+  flex:6;
+}
+.box{
+  flex: 1;
+  background-color: black;
+  padding: 20px;
+}
